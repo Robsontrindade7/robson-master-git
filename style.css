@@ -1,0 +1,119 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'mukta', sans-serif;
+
+}
+.caixa-principal{
+    padding: 40px;
+    font-size: 20px;
+}
+ 
+
+.caixa-sobre-mim {
+  
+  font-size: 20px;
+  width: 500px;
+  height: 450px;
+  padding: 40px;
+  align-items: center;
+ 
+
+}
+.metas {
+    font-size: 20px;
+    width:350px;
+    height: 300px;
+    padding: 40px;
+    align-items: center;
+   justify-content: center;
+   position: absolute;
+   top: 40%;
+   right: 30%;
+}
+
+
+
+
+h1{
+    color: red;
+    font-size: 50px;
+    font-style: italic;
+   
+}
+
+
+
+
+
+p {
+    color: blue;
+   
+    font-family: italic, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+h2 {
+    color: green;
+    font-size: 30px;
+    font-family: italic, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+ul {
+    list-style-type: square;
+    color: blue;
+    font-size: 18px;
+    font-family: italic, Helvetica, sans-serif;
+    font-style: italic;
+}
+h3 {
+    color: green;
+    font-size: 25px;
+    font-family: italic, Helvetica, sans-serif;
+    font-style: italic;
+}
+ol {
+    list-style-type: decimal;
+    color: blue;
+    font-size: 18px;
+    font-family: italic, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+
+
+.linkedin-icon {
+    display: flex;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.video-principal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.mascara-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(236, 9, 21, 0.24);
+    z-index: 0;
+}
+
+video {
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
